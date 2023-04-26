@@ -6,35 +6,102 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <link rel="stylesheet" href="css/disenio.css">
+    <!--Estilos de bootstrapp-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+        <!--JavasScript: implementacion de animaciones-->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js"
         integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE"
         crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js"
         integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ"
         crossorigin="anonymous"></script>
-    <title>Document</title>
+    <title>Contácto</title>
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg" style="background-color: #be2828;">
-        <div class="container-fluid" style="color: black;">
-          <a class="navbar-brand" href="index.html" style="border: 3px solid black; color: white;"><font size="6">Methal</font> <font size="4">Ltda</font></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
+    <nav class="navbar navbar-expand-lg fixed-top" style="background-color: #be2828;">
+      <!--el siguiente div maneja todo lo que es texto del nav-->  
+      <div class="container-fluid" style="color: black;">
+        <!-- la etiqueta <a> hace que un texto se vuelva link para navegar-->
+          <a class="navbar-brand" href="index.html" style="border: 3px solid black; color: white;">
+            <font size="5">Methal</font>
+            <font size="3">Ltda</font></a>
+          <img src="/icon/vsm-logo-2016.ico" height="50px" width="100" style="margin-right: 10px;">
+          <!--div que contiene los "botones" para navegar a traves de las paginas-->
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-              <a class="nav-link" aria-current="page" href="#">Home</a>
-              <a class="nav-link active" href="contacto.html">Contacto</a>
-              <a class="nav-link" href="#">Pricing</a>
+              <a class="nav-link" aria-current="page" href="index.html">Home</a>
+              <a class="nav-link active" href="contacto.html">Contácto</a>
+              <a class="nav-link" href="metalizacion.html">Metalizacion</a>
             </div>
           </div>
+          <p style="margin-right: 2%;">SEGURIDAD - CALIDAD <br> <font style="margin-left: 12%;">MEDIO AMBIENTE</font></p>
+          
         </div>
       </nav>
 
+      <!--En este div podemos ver un icono de una flecha apuntando a la derecha de color rojo ademas del texto que lo acompania-->
+      <div class="container text-center" style="margin-top: 5%;">
+        <div class="row">
+            <div class="col-1" style="margin-top: 20px;">
+                <svg class="flecha" xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor"
+                    class="bi bi-caret-right-fill" viewBox="0 0 16 16" style="color: #be2828;">
+                    <path
+                        d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z" />
+                </svg>
+            </div>
+            <div class="col-11" style="margin-top: 30px; text-align: center;">
+                <h2 class="texto_fl">Industrial y Comercial Methal <font size="5">Ltda.</font></h2>
+            </div>
+        </div>
+    </div>
+    <!--En este div definimos los servicios en los que opera le empresa junto con un fondo entre morado y negro-->
+    <div  style=" background-color: rgb(59, 31, 75); padding: 10px; margin-top: 1%;">
+      <li style="text-align: center; color: white; "> <font size="6px">METALIZACION</font></li>
+      <li style="text-align: center; color: white;">RECUPERACION PARTES Y PIEZAS</li>
+    </div>
+    <!--En este div podemos ver que el estilo tiene bordes margenes ademas de padding para poder centrar este div y que se vea comodo a la vista, ademas de agregar todo el texto
+    que debe contener este papartado-->
+    <div style="margin-top: 5%; border: 1px solid black;  margin-left: 20%; margin-right: 20%; border-radius: 20px; padding: 10px;">
+      <h5>Contactos:</h5>
+      <hr style="border: 1px solid black;">
+    </div>
+
 
 </body>
-
+<footer class="text-light py-4" style="margin-top: 5%; background-color: #be2828;">
+  <div class="container" style="color: black;">
+      <div class="row">
+          <div class="col-md-4">
+              <h5 class="mb-3">Información de contacto</h5>
+              <p><i class="fas fa-map-marker-alt"></i> Dirección: Calle 4 nª1961, Parque Industrial Ejercito,
+                  Concepcion</p>
+              <p><i class="fas fa-phone"></i> Teléfono: +569 9435 5211</p>
+              <p><i class="fas fa-phone"></i> Teléfono: +569 7969 5900</p>
+              <p><i class="fas fa-phone"></i> Teléfono: +569 3451 8132</p>
+              <p><i class="fas fa-phone"></i> Teléfono: +569 6229 5187</p>
+              <p><i class="fas fa-envelope"></i> Email: aperezmethal@mail.com</p>
+          </div>
+          <div class="col-md-4">
+              <h5 class="mb-3">Horario de atención</h5>
+              <p>Lunes a viernes: 9am - 6pm</p>
+              <p>Sábados: 9am - 1pm</p>
+          </div>
+          <div class="col-md-4">
+              <h5 class="mb-3">Síguenos en redes sociales</h5>
+              <a href="#" class="btn btn-outline-dark mb-3"><i class="fab fa-facebook-f"></i> Facebook</a>
+              <a href="#" class="btn btn-outline-dark mb-3"><i class="fab fa-twitter"></i> Twitter</a>
+              <a href="#" class="btn btn-outline-dark mb-3"><i class="fab fa-instagram"></i> Instagram</a>
+          </div>
+      </div>
+      <div class="row mt-3">
+          <div class="col-md-12 text-center">
+              <p>© 2023 <font size="4">Methal</font>
+                  <font size="3">Ltda</font>. Todos los derechos reservados.
+              </p>
+          </div>
+      </div>
+  </div>
+</footer>
 </html>
